@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Outfit:wght@400;700&display=swap");
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --LightGray: hsl(212, 45%, 89%);
+    --GrayishBlue: hsl(220, 15%, 55%9);
+    --DarkBlue: hsl(218, 44%, 22%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+    font-family: "Outfit", "Epilogue",sans-serif;
+    font-size: 15px;
+    padding: 81px 30px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container{
+    width: 320px;
+    height: 500px;
+    background-color: var(--White);
+    margin:auto;
+    border: 1px solid black;
+}
