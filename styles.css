@@ -17,7 +17,33 @@
 body{
     font-family: "Outfit", "Epilogue",sans-serif;
     font-size: 15px;
-    padding: 81px 30px;
+    background-color: var(--LightGray);
+}
+
+
+.container{
+    width: 320px;
+    height: 500px;
+    background-color: var(--White);
+    margin:81px auto;
+    padding: 15px;
+    border-radius: 15px;
+
+    border:solid black 1px;
+}
+
+.container__image{
+  height: 290px;
+  width: 288px;
+  background-image: url("./images/image-qr-code.png");
+  background-position: center;
+  background-size: contain;
+  border-radius: 10px;
+}
+
+.container__info{
+  padding:28px;
+  text-align: center;
 }
 
 .attribution {
@@ -29,10 +55,18 @@ body{
   color: hsl(228, 45%, 44%);
 }
 
-.container{
-    width: 320px;
-    height: 500px;
-    background-color: var(--White);
-    margin:auto;
-    border: 1px solid black;
+@media screen and (min-width:1440px){
+  .container{
+    margin:145px auto;
+  }
+}
+
+h1{
+  font-size: 18px;
+}
+
+p{
+  font-size: 14px;
+  padding-top: 10px;
+  color:var(--GrayishBlue)
 }
